@@ -1,8 +1,8 @@
 # Pharmacy-Recommendation
 해당 프로젝트는 패스트 캠퍼스[10개 프로젝트로 완성하는 백엔드 웹개발(Java/Spring) 초격차 패키지 Online의 Part7 약국 길찾기 서비스] 강의를 학습하며 진행하였습니다. 
 
-해당 코드는 패스트 캠퍼스 강의에서 사용된다.
-강의 각 챕터 별 완성 코드는 링크에서 commit으로 기록 된다.
+해당 코드는 [패스트 캠퍼스 강의](https://fastcampus.co.kr/dev_online_befinal)에서 사용된다.
+강의 각 챕터 별 완성 코드는 [링크](https://github.com/WonYong-Jang/Pharmacy-Recommendation-Version-Management)에서 commit으로 기록 된다.
 
 외부 API(카카오 주소 검색 API)와 공공 데이터(약국 현황 정보)를 활용함으로써 혼자 개발하고 마무리 되는 프로젝트가 아닌 실제 서비스 가능한 수준의 프로젝트를 경험 해본다.
 
