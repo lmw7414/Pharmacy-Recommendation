@@ -5,8 +5,9 @@ import com.example.pharmacyrecommendation.pharmacy.repository.PharmacyRepository
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
+import java.util.List;
 import java.util.Objects;
 
 @Slf4j
@@ -27,4 +28,8 @@ public class PharmacyRepositoryService {
         entity.changePharmacyAddress(address);
     }
 
+    @Transactional(readOnly = true)
+    public List<Pharmacy> findAll() {
+        return pharmacyRepository.findAll();
+    }
 }
